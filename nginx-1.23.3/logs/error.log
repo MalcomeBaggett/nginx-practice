@@ -1,0 +1,12 @@
+2023/03/15 15:19:46 [emerg] 28400#29480: no "events" section in configuration
+2023/03/15 15:19:46 [alert] 10776#32284: worker process 28400 exited with code 1
+2023/03/15 15:19:46 [alert] 10776#32284: could not respawn worker
+2023/03/15 15:19:54 [emerg] 31740#26428: no "events" section in configuration
+2023/03/15 15:20:28 [emerg] 17092#26092: no "events" section in configuration
+2023/03/15 15:30:21 [emerg] 26160#34880: no "events" section in configuration
+2023/03/15 15:30:36 [emerg] 24008#29732: no "events" section in configuration
+2023/03/15 15:31:29 [emerg] 30324#8576: no "events" section in configuration
+2023/03/15 15:41:05 [emerg] 13768#17200: no "events" section in configuration
+2023/03/15 15:41:52 [emerg] 14296#6428: no "events" section in configuration
+2023/03/15 15:42:32 [emerg] 16492#16860: no "events" section in configuration
+2023/03/15 16:08:48 [error] 18400#17916: *1 CreateFile() "C:\Users\malcome.baggett\Desktop\Projects\DummyFolder/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
