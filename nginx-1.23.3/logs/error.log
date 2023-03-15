@@ -10,3 +10,4 @@
 2023/03/15 15:41:52 [emerg] 14296#6428: no "events" section in configuration
 2023/03/15 15:42:32 [emerg] 16492#16860: no "events" section in configuration
 2023/03/15 16:08:48 [error] 18400#17916: *1 CreateFile() "C:\Users\malcome.baggett\Desktop\Projects\DummyFolder/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/03/15 16:25:23 [notice] 9764#22024: signal process started
