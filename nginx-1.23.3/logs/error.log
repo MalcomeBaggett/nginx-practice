@@ -11,3 +11,34 @@
 2023/03/15 15:42:32 [emerg] 16492#16860: no "events" section in configuration
 2023/03/15 16:08:48 [error] 18400#17916: *1 CreateFile() "C:\Users\malcome.baggett\Desktop\Projects\DummyFolder/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
 2023/03/15 16:25:23 [notice] 9764#22024: signal process started
+2023/03/16 10:02:11 [emerg] 9464#5180: host not found in upstream "backend_server_ip:5000" in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:37
+2023/03/16 10:16:44 [emerg] 15140#14248: host not found in upstream "backend_server_ip:5000" in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:37
+2023/03/16 10:17:59 [emerg] 5308#12192: invalid port in upstream "backend_server_ip:localhost:3000" in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:37
+2023/03/16 10:21:26 [emerg] 6764#18776: invalid parameter "http://localhost:3000" in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:37
+2023/03/16 10:21:53 [emerg] 1312#7680: invalid parameter "http://localhost:3000" in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:37
+2023/03/16 10:22:35 [emerg] 17888#6336: invalid parameter "localhost:3000" in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:37
+2023/03/16 10:23:53 [emerg] 7252#14952: host not found in upstream "backend_server_ip:3000" in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:37
+2023/03/16 10:24:12 [emerg] 15916#10992: host not found in upstream "backend_server_ip:5000" in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:37
+2023/03/16 10:26:33 [emerg] 21436#2648: "server" directive is not allowed here in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:52
+2023/03/16 10:30:16 [emerg] 20872#11556: "server" directive is not allowed here in C:\Users\malcome.baggett\Desktop\Projects\nginx-1.23.3\nginx-1.23.3/conf/nginx.conf:52
+2023/03/16 10:33:39 [notice] 22244#20732: signal process started
+2023/03/16 10:33:39 [error] 22244#20732: OpenEvent("Global\ngx_reload_17572") failed (2: The system cannot find the file specified)
+2023/03/16 10:51:00 [notice] 1004#18604: signal process started
+2023/03/16 10:51:00 [error] 1004#18604: OpenEvent("Global\ngx_quit_17572") failed (2: The system cannot find the file specified)
+2023/03/16 10:51:02 [notice] 1072#21248: signal process started
+2023/03/16 10:51:02 [error] 1072#21248: OpenEvent("Global\ngx_quit_17572") failed (2: The system cannot find the file specified)
+2023/03/16 10:51:04 [notice] 3452#16308: signal process started
+2023/03/16 10:51:04 [error] 3452#16308: OpenEvent("Global\ngx_quit_17572") failed (2: The system cannot find the file specified)
+2023/03/16 10:57:46 [error] 6264#22152: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "localhost"
+2023/03/16 10:57:48 [error] 6264#22152: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2023/03/16 10:57:48 [error] 6264#22152: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2023/03/16 10:58:24 [notice] 13756#15304: signal process started
+2023/03/16 10:58:29 [error] 6264#22152: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2023/03/16 10:58:31 [error] 6264#22152: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "localhost"
+2023/03/16 10:58:31 [error] 6264#22152: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://backend/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2023/03/16 10:59:41 [notice] 21644#12564: signal process started
+2023/03/16 10:59:41 [error] 21644#12564: OpenEvent("Global\ngx_quit_12768") failed (2: The system cannot find the file specified)
+2023/03/16 11:43:48 [error] 10496#12228: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test-proxy HTTP/1.1", upstream: "http://[::1]:5000/test-proxy", host: "localhost"
+2023/03/16 11:43:50 [error] 10496#12228: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test-proxy HTTP/1.1", upstream: "http://127.0.0.1:5000/test-proxy", host: "localhost"
+2023/03/16 11:44:55 [error] 10496#12228: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /8080/test-proxy HTTP/1.1", upstream: "http://127.0.0.1:5000/8080/test-proxy", host: "localhost"
+2023/03/16 11:44:57 [error] 10496#12228: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /8080/test-proxy HTTP/1.1", upstream: "http://[::1]:5000/8080/test-proxy", host: "localhost"
